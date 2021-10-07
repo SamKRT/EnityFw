@@ -25,6 +25,7 @@ namespace SamuelsShop.Models
         [Required, ForeignKey("Producer")]
         public int ProducerID { get; set; }
 
+
         public Producer Producer { get; set; }
     }
 }
